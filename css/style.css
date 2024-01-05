@@ -21,11 +21,11 @@ body {
   font-weight: 700;
 }
 .section-description {
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-  }
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
 /* nav section */
 nav {
   display: flex;
@@ -92,13 +92,34 @@ nav a {
   width: 500px;
 }
 /* main  */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /*  about me section */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
-  margin: 130px;
+  margin: 130px 0px;
 }
 
-
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.about-info{
+    text-align: center;
+}
+.info-title {
+	color: #757575;
+	font-size: 18px;
+	font-weight: 400;
+}
+.info-description{
+    color:#474747;
+    font-size: 18px;
+    font-weight: 700;
+}
