@@ -19,6 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 150px;
 }
 
 nav ul {
@@ -39,4 +40,16 @@ nav a {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
+}
+/* header section */
+.header{
+    background: #FFF8F3;
+}
+.bannar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.bannar-right img{
+    width: 500px;
 }
