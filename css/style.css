@@ -26,6 +26,9 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
+.content-center {
+  margin: 0 auto;
+}
 /* nav section */
 nav {
   display: flex;
@@ -126,10 +129,10 @@ main {
 #what-i-do-description {
   margin: 30px 130px;
 }
-.skill-container{
-    display: flex;
-    gap: 50px;
-    margin-top: 30px;
+.skill-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
 }
 .skills {
   padding: 30px;
@@ -147,4 +150,51 @@ main {
   color: var(--Dark-03, #757575);
   font-size: 16px;
   font-weight: 400;
+}
+/* resume section */
+.resume-summery {
+  margin-top: 130px;
+  margin-bottom: 113px;
+}
+.resume-summery button {
+  margin: 0 auto;
+}
+.resume-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-coloumn >.resume-item{
+  border: 2px sold green;
+}
+.resume-item {
+  
+}
+.resume-item hr{
+  margin: 30px 0;
+  color: #D1D1D1;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-item-subtitle {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.resume-download{
+  margin: 0 auto;
 }
