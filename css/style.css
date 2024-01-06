@@ -203,12 +203,13 @@ footer {
   justify-content: space-around;
   background: #fff8f3;
   padding: 130px 200px;
+  gap: 100px;
 }
-.social-links{
+.social-links {
   display: flex;
   gap: 24px;
 }
-.
+
 .social-links li {
   display: inline-flex;
   margin-right: 30px;
@@ -223,4 +224,25 @@ footer {
   color: #474747;
   font-size: 16px;
   font-weight: 400;
+}
+.footer-coloumn {
+  width: 50%;
+}
+.contract-form input,
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  width: 80%;
+}
+.contract-form textarea{
+  resize: none
+}
+.submit-button{
+  cursor: pointer;
 }
