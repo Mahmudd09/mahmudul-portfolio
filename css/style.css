@@ -196,5 +196,6 @@ main {
   margin-bottom: 30px;
 }
 .resume-download{
-  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
 }
